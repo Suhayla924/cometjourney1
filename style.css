@@ -22,11 +22,12 @@ body {
 
 .comet1 {
   position: absolute;
-  align: center;
   background-color: red;
   width: 100px;
   height: 100px;
-  border-radius: 50px, 25px, 50px, 25px;
+  border-radius: 50%;
+  border-top-left-radius: 37.6%;
+  border-bottom-right-radius: -13px;
   transform: rotate(2deg);
   left: 0px;
   top: 0px;
