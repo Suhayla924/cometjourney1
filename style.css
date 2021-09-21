@@ -12,22 +12,21 @@ body {
   color: white;
 }
 .indexcontainer1 {
-  position: static;
+  position: absolute;
   background-color: blue;
   width: 300px;
   height: 300px;
-  left: 500px;
-  height: 5px;
+  left: 50px;
+  height: 500px;
 }
 
 .comet1 {
   position: absolute;
+  align: center;
   background-color: red;
   width: 100px;
   height: 100px;
-  border-radius: 50%;
-  border-top-left-radius: 25%;
-  border-bottom-right-radius: 45%;
+  border-radius: 50px, 25px, 50px, 25px;
   transform: rotate(2deg);
   left: 0px;
   top: 0px;
