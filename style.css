@@ -1,7 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap");
 
+html{
+   background-image: linear-gradient(top to bottom, rgba(255,0,0,0), rgba(255,0,0,1));
+}
 body {
-  background-color: black;
   font-family: "Amatic SC", cursive;
   color: white;
 }
@@ -15,9 +17,8 @@ body {
   border-bottom-right-radius: 45%;
   background-color: red;
   animation-name: comet1;
-  animation-delay:2s;
+  animation-delay: 2s;
   animation-duration: 10s;
-  
 }
 @keyframes comet1 {
   animation-direction: alternate;
