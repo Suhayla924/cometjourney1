@@ -11,10 +11,18 @@ body {
   font-family: "Amatic SC", cursive;
   color: white;
 }
+.indexcontainer1 {
+  position: absolute;
+  background-color: blue;
+  width: 300px;
+  height: 300px;
+  left: 500px;
+  height: 5px;
+}
 
 .comet1 {
   position: absolute;
-  background-color:red;
+  background-color: red;
   width: 100px;
   height: 100px;
   border-radius: 50%;
@@ -24,13 +32,16 @@ body {
   left: 0px;
   top: 0px;
   animation-name: comet1;
-  animation-delay: 2s;
-  animation-duration: 10s;
+  animation-delay: 12s;
+  animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 @keyframes comet1 {
   animation-direction: alternate;
-  from{left:0px;}
-  to{left:100px}
+  from {
+    left: 0px;
+  }
+  to {
+    left: 100px;
   }
 }
