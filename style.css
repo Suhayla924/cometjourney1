@@ -7,17 +7,23 @@ body {
 }
 
 .comet1 {
+  position: absolute;
   width: 100px;
   height: 100px;
   border-radius: 50%;
+  border-top-left-radius: 25%;
+  border-bottom-right-radius: 45%;
   background-color: red;
   animation-name: comet1;
+  animation-delay:2s;
   animation-duration: 10s;
+  
 }
 @keyframes comet1 {
+  animation-direction: alternate;
   0% {
     background-color: red;
-    left: 0px;
+    left: 10px;
     top: 0px;
   }
   25% {
