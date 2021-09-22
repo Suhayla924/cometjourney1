@@ -12,6 +12,11 @@ body {
   color: white;
   background-color: black;
 }
+.title {
+  text-align: center;
+  margin: 5%;
+}
+
 .star1 {
   position: absolute;
   background-color: white;
@@ -101,6 +106,16 @@ body {
   top: 420px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
+}
+.cometformation{
+  animation-name: stretch;
+  animation-duration: 1.5s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running; 
 }
 
 .comet1 {
