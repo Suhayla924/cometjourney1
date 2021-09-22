@@ -23,7 +23,7 @@ body {
   border-top-left-radius: 35%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
-  transform: rotate(60deg);
+  transform: rotate(180deg);
   left: 150px;
   top: 20px;
   animation-name: comet1;
@@ -47,13 +47,13 @@ body {
   margin: 25%;
   position: absolute;
   background-color: red;
-  width: 100px;
-  height: 140px;
+  width: 90px;
+  height: 135px;
   border-top-right-radius: 30%;
   border-top-left-radius: 35%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
-  transform: rotate(60deg);
+  transform: rotate(35deg);
   left: 220px;
   top: 20px;
   animation-name: comet1;
