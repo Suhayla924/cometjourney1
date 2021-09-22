@@ -11,16 +11,13 @@ body {
   font-family: "Amatic SC", cursive;
   color: white;
 }
-.indexcontainer1 {
-  position: absolute;
-  background-color: blue;
-  width: 300px;
-  height: 300px;
-  left: 50px;
-  height: 250px;
+h1 {
+  font-family: "Amatic SC", cursive;
+  color: white;
 }
 
 .comet1 {
+  margin: 25%;
   position: absolute;
   background-color: red;
   width: 150px;
@@ -29,19 +26,19 @@ body {
   border-top-left-radius: 75%;
   border-bottom-right-radius: 100%;
   transform: rotate(65deg);
-  left: 0px;
+  left: 100px;
   top: 0px;
   animation-name: comet1;
-  animation-delay: 12s;
+  animation-delay: 1s;
   animation-duration: 2s;
   animation-iteration-count: infinite;
 }
 @keyframes comet1 {
   animation-direction: alternate;
   from {
-    top: 0px;
+    top: 100px;
   }
   to {
-    top: 100px;
+    top: 10px;
   }
 }
