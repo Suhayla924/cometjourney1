@@ -20,7 +20,7 @@ body {
   width: 150px;
   height: 150px;
   border-top-right-radius: 30%;
-  border-top-left-radius: 35%;
+  border-top-left-radius: 45%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
   transform: rotate(33deg);
@@ -50,7 +50,7 @@ body {
   width: 45px;
   height: 135px;
   border-top-right-radius: 30%;
-  border-top-left-radius: 35%;
+  border-top-left-radius: 5%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
   transform: rotate(35deg);
@@ -61,22 +61,34 @@ body {
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-  .comet3 {
+.comet3 {
   margin: 25%;
   position: absolute;
-  background-color: white;
-  width: 45px;
-  height: 135px;
-  border-top-right-radius: 30%;
-  border-top-left-radius: 35%;
-  border-bottom-left-radius: 20.5%;
-  border-bottom-right-radius: 60%;
-  transform: rotate(35deg);
-  left: 220px;
-  top: 20px;
-  animation-name: comet1;
+  background-color: red;
+  width: 40px;
+  height: 20px;
+  border-top-right-radius: 60%;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 30%;
+  border-bottom-right-radius: 30%;
+  transform: rotate(30deg);
+  left: 152px;
+  top: 140px;
+  animation-name: comet3;
   animation-delay: 1s;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-  
+
+@keyframes comet3 {
+  animation-direction: alternate;
+  0% {
+    top: 140px;
+  }
+  50% {
+    top: 120px;
+  }
+  100% {
+    top: 140px;
+  }
+}
