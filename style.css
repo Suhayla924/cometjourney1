@@ -95,7 +95,35 @@ body {
 .skygradient {
   position: absolute;
   margin: 5%;
-  background-image: linear-gradient(black, purple,blue,white);
+  background-image: linear-gradient(black, purple, blue, white);
   width: 700px;
   height: 6000px;
+}
+.comet4 {
+  margin: 25%;
+  sclae: 5%;
+  position: absolute;
+  background-color: red;
+  width: 150px;
+  height: 150px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 20.5%;
+  border-bottom-right-radius: 60%;
+  transform: rotate(33deg);
+  left: 150px;
+  top: 20px;
+  animation-name: comet4;
+  animation-delay: 4s;
+  animation-duration: 30s;
+  animation-iteration-count: infinite;
+}
+@keyframes comet4 {
+  animation-direction: alternate;
+  from {
+    top: 20px;
+  }
+  to {
+    top: 6000px;
+  }
 }
