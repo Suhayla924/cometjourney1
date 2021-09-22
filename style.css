@@ -50,7 +50,7 @@ body {
   width: 45px;
   height: 135px;
   border-top-right-radius: 30%;
-  border-top-left-radius: 5%;
+  border-top-left-radius: 35%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
   transform: rotate(35deg);
@@ -69,10 +69,10 @@ body {
   height: 20px;
   border-top-right-radius: 60%;
   border-top-left-radius: 45%;
-  border-bottom-left-radius: 30%;
+  border-bottom-left-radius: 40%;
   border-bottom-right-radius: 30%;
   transform: rotate(30deg);
-  left: 152px;
+  left: 156px;
   top: 140px;
   animation-name: comet3;
   animation-delay: 1s;
@@ -91,4 +91,7 @@ body {
   100% {
     top: 140px;
   }
+}
+.skygradient {
+  background-color: blue;
 }
