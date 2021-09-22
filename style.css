@@ -93,5 +93,9 @@ body {
   }
 }
 .skygradient {
-  background-color: blue;
+  position: absolute;
+  margin: 5%;
+  background-image: linear-gradient(black, purple,blue,white);
+  width: 700px;
+  height: 6000px;
 }
