@@ -13,18 +13,17 @@ body {
   background-color: black;
 }
 
-
 .comet1 {
   margin: 25%;
   position: absolute;
   background-color: red;
   width: 150px;
   height: 150px;
-  border-radius: 50%;
-  border-top-left-radius: 75%;
-  border-bottom-left-radius: .50%;
-  border-bottom-right-radius: 100%;
-  transform: rotate(65deg);
+  border-top-right-radius: 30%;
+  border-top-left-radius: 35%;
+  border-bottom-left-radius: 20.5%;
+  border-bottom-right-radius: 60%;
+  transform: rotate(6deg);
   left: 150px;
   top: 20px;
   animation-name: comet1;
@@ -34,13 +33,16 @@ body {
 }
 @keyframes comet1 {
   animation-direction: alternate;
-   {
-    top: 100px;
+  0% {
+    top: 20px;
   }
-   {
-    top: 10px;
+  25% {
+    top: 120px;
   }
-   {
-    top: 50px;
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: 20px;
   }
 }
