@@ -17,18 +17,18 @@ body {
   width: 300px;
   height: 300px;
   left: 50px;
-  height: 500px;
+  height: 250px;
 }
 
 .comet1 {
   position: absolute;
   background-color: red;
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
-  border-top-left-radius: 37.6%;
-  border-bottom-right-radius: -13px;
-  transform: rotate(2deg);
+  border-top-left-radius: 75%;
+  border-bottom-right-radius: 100%;
+  transform: rotate(65deg);
   left: 0px;
   top: 0px;
   animation-name: comet1;
@@ -39,9 +39,9 @@ body {
 @keyframes comet1 {
   animation-direction: alternate;
   from {
-    left: 0px;
+    top: 0px;
   }
   to {
-    left: 100px;
+    top: 100px;
   }
 }
