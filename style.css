@@ -12,13 +12,18 @@ body {
   color: white;
   background-color: black;
 }
-h1{
+
+h1 {
+  background-color: black; 
+  border: solid 10px black;
+  color: #d9d9d9;
+  text-shadow: pink;
+
+}
+h2 {
   background-color: black;
 }
-h2{
-  background-color: black;
-}
-h3{
+p {
   background-color: black;
 }
 
@@ -28,12 +33,11 @@ h3{
   background-color: black;
 }
 
-.nextbutton{
+.nextbutton {
   text-align: right;
   margin: 5%;
   background-color: black;
 }
-
 
 .star1 {
   position: absolute;
