@@ -20,10 +20,10 @@ body {
 .star1 {
   position: absolute;
   background-color: white;
-  width: 15px;
-  height: 15px;
+  width: 5px;
+  height: 5px;
   left: 150px;
-  top: 20px;
+  top: 450px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
   animation-name: starfadeout;
@@ -39,8 +39,8 @@ body {
   background-color: white;
   width: 5px;
   height: 5px;
-  left: 125px;
-  top: 120px;
+  left: 25px;
+  top: 100px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
   animation-name: starfadeout;
@@ -74,7 +74,7 @@ body {
   width: 5px;
   height: 5px;
   left: 980px;
-  top: 15px;
+  top: 40px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
   animation-name: starfadeout;
@@ -91,7 +91,7 @@ body {
   width: 5px;
   height: 5px;
   left: 500px;
-  top: 26px;
+  top: 36px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
   animation-name: starfadeout;
@@ -108,7 +108,7 @@ body {
   width: 5px;
   height: 5px;
   left: 150px;
-  top: 20px;
+  top: 25px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
   animation-name: starfadeout;
@@ -128,7 +128,7 @@ body {
   top: 200px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
-   animation-name: starfadeout;
+  animation-name: starfadeout;
   animation-timing-function: ease;
   animation-duration: 2s;
   animation-delay: 1s;
@@ -145,7 +145,7 @@ body {
   top: 320px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
-   animation-name: starfadeout;
+  animation-name: starfadeout;
   animation-timing-function: ease;
   animation-duration: 2s;
   animation-delay: 1s;
@@ -162,7 +162,111 @@ body {
   top: 420px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
-   animation-name: starfadeout;
+  animation-name: starfadeout;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+.star10 {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  left: 1200px;
+  top: 620px;
+  box-shadow: 2px 2px 10px 3px pink;
+  transform: rotate(45deg);
+  animation-name: starfadeout;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+
+.star11 {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  left: 1050px;
+  top: 380px;
+  box-shadow: 2px 2px 10px 3px pink;
+  transform: rotate(45deg);
+  animation-name: starfadeout;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+
+.star12 {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  left: 1650px;
+  top: 20px;
+  box-shadow: 2px 2px 10px 3px pink;
+  transform: rotate(45deg);
+  animation-name: starfadeout;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+.star13 {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  left: 1500px;
+  top: 520px;
+  box-shadow: 2px 2px 10px 3px pink;
+  transform: rotate(45deg);
+  animation-name: starfadeout;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+.star14 {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  left: 980px;
+  top: 180px;
+  box-shadow: 2px 2px 10px 3px pink;
+  transform: rotate(45deg);
+  animation-name: starfadeout;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-delay: 0;
+  animation-iteration-count: infinite;
+}
+.star15 {
+  position: absolute;
+  background-color: white;
+  width: 5px;
+  height: 5px;
+  left: 750px;
+  top: 20px;
+  box-shadow: 2px 2px 10px 3px pink;
+  transform: rotate(45deg);
+  animation-name: starfadeout;
   animation-timing-function: ease;
   animation-duration: 2s;
   animation-delay: 1s;
@@ -173,15 +277,16 @@ body {
 
 @keyframes starfadeout {
   100% {
-    opacity: .1;
+    opacity: 0.1;
   }
   50% {
     opacity: 1;
   }
   0% {
-    opacity: .1;
+    opacity: 0.1;
   }
-  
+}
+
 .cometformation {
   height: 150px;
   width: 150px;
@@ -327,7 +432,7 @@ body {
     top: 6000px;
   }
 }
-.galaxy{
+.galaxy {
   position: absolute;
   background-color: blue;
   width: 125px;
@@ -338,7 +443,7 @@ body {
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(45deg);
 }
-.planet1{
+.planet1 {
   position: absolute;
   background-color: blue;
   width: 425px;
@@ -350,7 +455,7 @@ body {
   transform: rotate(3deg);
 }
 
-.planet2{
+.planet2 {
   position: absolute;
   background-color: yellow;
   width: 425px;
