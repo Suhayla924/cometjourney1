@@ -12,15 +12,28 @@ body {
   color: white;
   background-color: black;
 }
+h1{
+  background-color: black;
+}
+h2{
+  background-color: black;
+}
+h3{
+  background-color: black;
+}
+
 .title {
   text-align: center;
   margin: 5%;
+  background-color: black;
 }
 
 .nextbutton{
   text-align: right;
   margin: 5%;
+  background-color: black;
 }
+
 
 .star1 {
   position: absolute;
