@@ -17,6 +17,11 @@ body {
   margin: 5%;
 }
 
+.nextbutton{
+  text-align: right;
+  margin: 5%;
+}
+
 .star1 {
   position: absolute;
   background-color: white;
