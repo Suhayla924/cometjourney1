@@ -7,6 +7,7 @@ html {
     rgba(255, 0, 0, 1)
   );
 }
+
 body {
   font-family: "Amatic SC", cursive;
   color: white;
@@ -14,11 +15,10 @@ body {
 }
 
 h1 {
-  background-color: black; 
+  background-color: black;
   border: solid 10px black;
   color: #d9d9d9;
-  text-shadow:  4px 1px 8px pink;
-
+  text-shadow: 4px 1px 8px pink;
 }
 h2 {
   background-color: black;
@@ -421,12 +421,13 @@ p {
 }
 
 .skygradient {
-  position: absolute;
-  margin: 2.5%;
+  position: static;
+  margin: 3.5%;
   background-image: linear-gradient(black, purple, blue, white);
-  width: 700px;
+  width: 1600px;
   height: 60000px;
 }
+
 .comet4 {
   margin: 25%;
   sclae: 5%;
@@ -456,7 +457,7 @@ p {
   }
 }
 .galaxy {
-  position: absolute;
+  position: fixed;
   background-color: blue;
   width: 125px;
   height: 425px;
