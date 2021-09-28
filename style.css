@@ -437,7 +437,7 @@ p {
   background-image: linear-gradient(to right, #ACC0CD,#67737B);
   width: 150px;
   height: 150px;
-  box-shadow: 2px 2px 10px 3px orange;
+  box-shadow: 6px 6px 6px 15px orange;
   border-top-right-radius: 30%;
   border-top-left-radius: 45%;
   border-bottom-left-radius: 20.5%;
