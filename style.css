@@ -45,6 +45,12 @@ p {
 .nextbutton {
   color: blue;
   text-align: right;
+  margin: 2%;
+  background-color: black;
+}
+.previousbutton {
+  color: blue;
+  text-align: left;
   margin: 5%;
   background-color: black;
 }
