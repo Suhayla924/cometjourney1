@@ -394,21 +394,56 @@ p {
   position: absolute;
   border: 5px solid #67737B;
   background-image: linear-gradient(to right, #ACC0CD,#67737B);
-  width: 150px;
-  height: 150px;
+   box-shadow: 2px 3px 14px 4px #62a6ea;
+  width: 175px;
+  height: 175px;
   border-top-right-radius: 30%;
   border-top-left-radius: 45%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
   transform: rotate(33deg);
-  left: 150px;
-  top: 20px;
+  left: 300px;
+  top: 1px;
   animation-name: comet1;
   animation-delay: 1s;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
+
 @keyframes comet1 {
+  animation-direction: alternate;
+  0% {
+    top: 20px;
+  }
+  50% {
+    top: 0px;
+  }
+  100% {
+    top: 20px;
+  }
+}
+
+.comet2 {
+  margin: 25%;
+  position: absolute;
+  border: 5px solid #67737B;
+  background-image: linear-gradient(to right, #ACC0CD,#67737B);
+   box-shadow: 2px 3px 14px 4px #62a6ea;
+  width: 175px;
+  height: 175px;
+  border-top-right-radius: 30%;
+  border-top-left-radius: 45%;
+  border-bottom-left-radius: 20.5%;
+  border-bottom-right-radius: 60%;
+  transform: rotate(33deg);
+  left: 300px;
+  top: 1px;
+  animation-name: comet2;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes comet2 {
   animation-direction: alternate;
   0% {
     top: 20px;
@@ -437,7 +472,7 @@ p {
   background-image: linear-gradient(to right, #ACC0CD,#67737B);
   width: 150px;
   height: 150px;
-  box-shadow: 6px 6px 6px 15px orange;
+  box-shadow: 2px 3px 14px 4px #62a6ea;
   border-top-right-radius: 30%;
   border-top-left-radius: 45%;
   border-bottom-left-radius: 20.5%;
