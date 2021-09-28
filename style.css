@@ -393,7 +393,7 @@ p {
   margin: 25%;
   position: absolute;
   border: 5px solid #67737B;
-  background-image: #ACC0CD;
+  background-image: linear-gradient(to right, #ACC0CD,#67737B);
   width: 150px;
   height: 150px;
   border-top-right-radius: 30%;
@@ -433,7 +433,8 @@ p {
   margin: 25%;
   sclae: 5%;
   position: absolute;
-  background-color: #ACC0CD;
+  border: 5px solid #67737B;
+  background-image: linear-gradient(to right, #ACC0CD,#67737B);
   width: 150px;
   height: 150px;
   border-top-right-radius: 30%;
