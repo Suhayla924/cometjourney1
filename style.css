@@ -526,7 +526,7 @@ p {
 }
 .skygradient {
   position: static;
-  margin: 3.5%;
+  margin: 5%;
   background-image: linear-gradient(
     black,
     #34174C,
@@ -569,11 +569,17 @@ p {
 
 @keyframes comet4 {
   animation-direction: alternate;
-  from {
+  0% {
     top: 20px;
+    left: 150px;
   }
-  to {
-    top: 40000px;
+  50% {
+    top: 7500px;
+    left: 10px;
+  }
+  100% {
+    top: 20px;
+    left: 150px;
   }
 }
 .galaxy {
@@ -589,7 +595,7 @@ p {
   width: 400px;
   height: 400px;
   left: 1px;
-  top: 1220px;
+  top: 8000px;
   transform: rotate(45deg);
 }
 .blackhole {
@@ -599,30 +605,51 @@ p {
   height: 600px;
   border-radius: 55%;
   left: 900px;
-  top: 3000px;
+  top: 3800px;
   box-shadow: 2px 2px 30px 3px red;
   transform: rotate(200deg);
 }
 .planet1 {
   position: absolute;
-  background-color: blue;
+   background-image: linear-gradient(
+    black,
+    #34174C,
+    #0B0D72,
+    #F4D83F,
+    #321961,
+    #192461,
+    #3F5BF4,
+    #3FF4D8,
+    #2F32D2,
+    #330A5F,
+    #1E41B5,
+    #D5E6F6
+  );
   width: 425px;
   height: 425px;
   border-radius: 55%;
-  left: 1px;
-  top: 6000px;
+  left: 100px;
+  top: 9500px;
   box-shadow: 2px 2px 10px 3px pink;
-  transform: rotate(3deg);
+  transform: rotate(50deg);
 }
 
 .planet2 {
   position: absolute;
-  background-color: yellow;
+   background-image: linear-gradient(
+    #0B0D72,
+    #321961,
+    #192461,
+    #3FF4D8,
+    #2F32D2,
+    #330A5F,
+    #1E41B5
+  );
   width: 425px;
   height: 425px;
   border-radius: 55%;
-  left: 5px;
-  top: 7700px;
+  left: 900px;
+  top: 12500px;
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(3deg);
 }
@@ -632,7 +659,7 @@ p {
   width: 425px;
   height: 425px;
   left: 80px;
-  top: 4300px;
+  top: 5600px;
 }
 .planetr {
   text-align: right;
@@ -640,16 +667,16 @@ p {
   width: 500px;
   height: 500px;
   left: 750px;
-  top: 6200px;
+  top: 9000px;
 }
 .asteriods {
   position: absolute;
-  top: 2000px;
+  top: 2500px;
   left: 20px;
 }
 .asteriods2 {
   position: absolute;
-  top: 5000px;
+  top: 6500px;
   left: 1000px;
 }
 
