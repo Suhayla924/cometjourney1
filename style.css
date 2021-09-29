@@ -563,11 +563,9 @@ p {
   animation-name: comet4;
   animation-delay: 4s;
   animation-duration: 180s;
-  animation-iteration-count: infinite;
 }
 
 @keyframes comet4 {
-  animation-direction: alternate;
   0% {
     top: 20px;
     left: 150px;
@@ -595,8 +593,8 @@ p {
     left: 360px;
   }
   100% {
-    top: 20px;
-    left: 15000px;
+    top: 14800px;
+    left: 150px;
   }
 }
 .galaxy {
@@ -698,20 +696,12 @@ p {
 }
 .sun{
   position: absolute;
-    background-image: radial-gradient(
-    #0B0D72,
-    #321961,
-    #192461,
-    #3FF4D8,
-    #2F32D2,
-    #330A5F,
-    #1E41B5
-  );
+    background-image: radial-gradient(red,orange,yellow,pink);
   width: 700px;
   height: 700px;
   border-radius: 55%;
   left: 350px;
   top: 14000px;
-  box-shadow: 2px 2px 30px 3px orange;
+  box-shadow: 2px 2px 30px 3px red;
   transform: rotate(3deg);
 }
