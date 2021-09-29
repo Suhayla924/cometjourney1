@@ -418,6 +418,7 @@ p {
   animation-iteration-count: infinite;
 }
 
+
 @keyframes comet1 {
   animation-direction: alternate;
   0% {
@@ -452,6 +453,7 @@ p {
   animation-iteration-count: infinite;
 }
 
+/*animation from https://webcode.tools/generators/css/keyframe-animation*/ 
 @keyframes comet2 {
   0% {
     opacity: 1;
@@ -480,6 +482,7 @@ p {
   animation-iteration-count: infinite;
 }
 
+/*animation from https://webcode.tools/generators/css/keyframe-animation*/ 
 @keyframes gstar {
   0% {
     transform: translate(0);
@@ -554,6 +557,7 @@ p {
   animation-duration: 30s;
   animation-iteration-count: infinite;
 }
+
 @keyframes comet4 {
   animation-direction: alternate;
   from {
@@ -597,6 +601,7 @@ p {
   box-shadow: 2px 2px 10px 3px pink;
   transform: rotate(3deg);
 }
+
 .planetb {
   position: absolute;
   width: 425px;
