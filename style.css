@@ -412,20 +412,20 @@ p {
   top: 1px;
   animation-name: comet1;
   animation-delay: 1s;
-  animation-duration: 3s;
+  animation-duration: 5s;
   animation-iteration-count: infinite;
 }
 
 @keyframes comet1 {
   animation-direction: alternate;
   0% {
-    top: 20px;
+    top: 1px;
   }
   50% {
-    top: 0px;
+    top: 20px;
   }
   100% {
-    top: 20px;
+    top: 1px;
   }
 }
 
