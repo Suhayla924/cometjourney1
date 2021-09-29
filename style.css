@@ -696,7 +696,7 @@ p {
 }
 .sun{
   position: absolute;
-    background-image: radial-gradient(red,orange,yellow,pink);
+  background-image: radial-gradient(red,orange,yellow,pink);
   width: 700px;
   height: 700px;
   border-radius: 55%;
