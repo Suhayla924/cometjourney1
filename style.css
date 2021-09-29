@@ -531,15 +531,14 @@ p {
     black,
     #34174C,
     #0B0D72,
-    #F4D83F,
     #321961,
     #192461,
     #3F5BF4,
     #3FF4D8,
     #2F32D2,
     #330A5F,
-    #1E41B5,
-    #D5E6F6
+    orange,
+    black
   );
   width: 1300px;
   height: 15000px;
@@ -573,13 +572,31 @@ p {
     top: 20px;
     left: 150px;
   }
+  5% {
+    left: 400px;
+  }
+  10% {
+    left: 10px;
+  }
+   15% {
+    left: 400px;
+  }
+   25% {
+    left: 50px;
+  }
   50% {
     top: 7500px;
     left: 10px;
   }
+   65% {
+    left: 60px;
+  }
+  75% {
+    left: 360px;
+  }
   100% {
     top: 20px;
-    left: 150px;
+    left: 15000px;
   }
 }
 .galaxy {
@@ -611,7 +628,7 @@ p {
 }
 .planet1 {
   position: absolute;
-   background-image: linear-gradient(
+  background-image: linear-gradient(
     black,
     #34174C,
     #0B0D72,
@@ -636,7 +653,7 @@ p {
 
 .planet2 {
   position: absolute;
-   background-image: linear-gradient(
+  background-image: linear-gradient(
     #0B0D72,
     #321961,
     #192461,
@@ -649,8 +666,8 @@ p {
   height: 425px;
   border-radius: 55%;
   left: 900px;
-  top: 12500px;
-  box-shadow: 2px 2px 10px 3px pink;
+  top: 11500px;
+  box-shadow: 2px 2px 10px 3px green;
   transform: rotate(3deg);
 }
 
@@ -679,4 +696,22 @@ p {
   top: 6500px;
   left: 1000px;
 }
-
+.sun{
+  position: absolute;
+    background-image: radial-gradient(
+    #0B0D72,
+    #321961,
+    #192461,
+    #3FF4D8,
+    #2F32D2,
+    #330A5F,
+    #1E41B5
+  );
+  width: 700px;
+  height: 700px;
+  border-radius: 55%;
+  left: 350px;
+  top: 14000px;
+  box-shadow: 2px 2px 30px 3px orange;
+  transform: rotate(3deg);
+}
