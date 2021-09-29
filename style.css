@@ -437,15 +437,15 @@ p {
   border: 5px solid #67737B;
   background-image: linear-gradient(to right, #ACC0CD, #67737B);
   box-shadow: 2px 3px 56px 4px #62a6ea;
-  width: 175px;
-  height: 175px;
+  width: 145px;
+  height: 145px;
   border-top-right-radius: 30%;
   border-top-left-radius: 45%;
   border-bottom-left-radius: 20.5%;
   border-bottom-right-radius: 60%;
   transform: rotate(33deg);
-  left: 30px;
-  top: 205px;
+  left: 55px;
+  top: 200px;
   animation-name: comet2;
   animation-delay: 1s;
   animation-duration: 3s;
@@ -462,7 +462,55 @@ p {
   left: 900px;
   top: 200px;
   box-shadow: 2px 2px 60px 30px pink;
-  transform: rotate(3deg);
+  animation-name: gstar 2s ease 0s 1 normal forwards;
+  animation-delay: 1s;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes gstar {
+  0% {
+    transform: translate(0);
+  }
+
+  10% {
+    transform: translate(-2px, -2px);
+  }
+
+  20% {
+    transform: translate(2px, -2px);
+  }
+
+  30% {
+    transform: translate(-2px, 2px);
+  }
+
+  40% {
+    transform: translate(2px, 2px);
+  }
+
+  50% {
+    transform: translate(-2px, -2px);
+  }
+
+  60% {
+    transform: translate(2px, -2px);
+  }
+
+  70% {
+    transform: translate(-2px, 2px);
+  }
+
+  80% {
+    transform: translate(-2px, -2px);
+  }
+
+  90% {
+    transform: translate(2px, -2px);
+  }
+
+  100% {
+    transform: translate(0);
+  }
 }
 .skygradient {
   position: static;
