@@ -27,7 +27,7 @@ h2 {
   border: solid 10px black;
   color: #d9d9d9;
   text-shadow: 4px 1px 8px pink;
-  ont-size: 30px;
+  ont-size: 35px;
 }
 p {
   background-color: black;
@@ -35,7 +35,7 @@ p {
   color: #d9d9d9;
   text-shadow: 4px 1px 8px pink;
   margin: 2%;
-  font-size: 25px;
+  font-size: 30px;
 }
 
 .title {
@@ -531,7 +531,7 @@ p {
 .skygradient {
   position: static;
   margin: 3.5%;
-  background-image: linear-gradient(black, purple, blue, white);
+  background-image: linear-gradient(black, #34174C, #0B0D72, #F4D83F,#3FF4D8, #2F32D2, #330A5F,blue, #D5E6F6);
   width: 1600px;
   height: 60000px;
 }
@@ -554,7 +554,7 @@ p {
   top: 20px;
   animation-name: comet4;
   animation-delay: 4s;
-  animation-duration: 30s;
+  animation-duration: 180s;
   animation-iteration-count: infinite;
 }
 
@@ -564,7 +564,7 @@ p {
     top: 20px;
   }
   to {
-    top: 6000px;
+    top: 60000px;
   }
 }
 .galaxy {
