@@ -584,6 +584,14 @@ p {
   top: 1220px;
   transform: rotate(45deg);
 }
+.galaxy2 {
+  position: absolute;
+  width: 400px;
+  height: 400px;
+  left: 1px;
+  top: 1220px;
+  transform: rotate(45deg);
+}
 .blackhole {
   position: absolute;
   background-color: black;
@@ -591,7 +599,7 @@ p {
   height: 600px;
   border-radius: 55%;
   left: 900px;
-  top: 2520px;
+  top: 3000px;
   box-shadow: 2px 2px 30px 3px red;
   transform: rotate(200deg);
 }
@@ -623,8 +631,8 @@ p {
   position: absolute;
   width: 425px;
   height: 425px;
-  left: 200px;
-  top: 1500px;
+  left: 80px;
+  top: 4300px;
 }
 .planetr {
   text-align: right;
@@ -632,10 +640,16 @@ p {
   width: 500px;
   height: 500px;
   left: 750px;
-  top: 5000px;
+  top: 6200px;
 }
 .asteriods {
   position: absolute;
-  top: 200px;
-  left: 900px;
+  top: 2000px;
+  left: 20px;
 }
+.asteriods2 {
+  position: absolute;
+  top: 5000px;
+  left: 1000px;
+}
+
