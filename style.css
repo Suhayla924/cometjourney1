@@ -577,15 +577,21 @@ p {
   }
 }
 .galaxy {
-  position: fixed;
-  background-color: blue;
+  position: absolute;
+  left: 225px;
+  top: 1220px;
+  transform: rotate(45deg);
+}
+.blackhole {
+  position: absolute;
+  background-color: black;
   width: 125px;
   height: 425px;
   border-radius: 55%;
   left: 525px;
   top: 1220px;
-  box-shadow: 2px 2px 10px 3px pink;
-  transform: rotate(45deg);
+  box-shadow: 2px 2px 30px 3px red;
+  transform: rotate(190deg);
 }
 .planet1 {
   position: absolute;
@@ -619,12 +625,12 @@ p {
   top: 7700px;
 }
 .planetr {
+  text-align: right;
   position: absolute;
-  width: 425px;
-  height: 425px;
-  left: 1750px;
-  top: 500px;
-  
+  width: 500px;
+  height: 500px;
+  left: 1200px;
+  top: 5000px;  
 }
 .asteriods {
   position: absolute;
