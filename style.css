@@ -432,7 +432,7 @@ p {
 }
 
 .comet2 {
-  margin: 25%;
+  margin: 5%;
   position: absolute;
   border: 5px solid #67737B;
   background-image: linear-gradient(to right, #ACC0CD, #67737B);
@@ -445,32 +445,22 @@ p {
   border-bottom-right-radius: 60%;
   transform: rotate(33deg);
   left: 30px;
-  top: 5px;
+  top: 205px;
   animation-name: comet2;
   animation-delay: 1s;
   animation-duration: 3s;
   animation-iteration-count: infinite;
 }
-@keyframes comet2 {
-  animation-direction: alternate;
-  0% {
-    top: 5px;
-  }
-  50% {
-    top: 0px;
-  }
-  100% {
-    top: 5px;
-  }
-}
+
+
 .gstar {
   position: absolute;
   background-color: yellow;
-  width: 225px;
-  height: 225px;
+  width: 205px;
+  height: 205px;
   border-radius: 55%;
-  left: 1000px;
-  top: 77px;
+  left: 900px;
+  top: 200px;
   box-shadow: 2px 2px 60px 30px pink;
   transform: rotate(3deg);
 }
