@@ -542,7 +542,7 @@ p {
     #D5E6F6
   );
   width: 1300px;
-  height: 40000px;
+  height: 15000px;
 }
 
 .comet4 {
@@ -578,8 +578,8 @@ p {
 }
 .galaxy {
   position: absolute;
-  width: 500px;
-  height: 500px;
+  width: 400px;
+  height: 400px;
   left: 1px;
   top: 1220px;
   transform: rotate(45deg);
@@ -624,18 +624,18 @@ p {
   width: 425px;
   height: 425px;
   left: 200px;
-  top: 7700px;
+  top: 1500px;
 }
 .planetr {
   text-align: right;
   position: absolute;
   width: 500px;
   height: 500px;
-  left: 1500px;
+  left: 750px;
   top: 5000px;
 }
 .asteriods {
   position: absolute;
-  top: 7000px;
-  left: 40px;
+  top: 200px;
+  left: 900px;
 }
